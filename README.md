@@ -1,4 +1,4 @@
-# RTC DS3231 Python Library for Onion [Omega2+ Expansion Board](https://www.crowdsupply.com/factorial-group/omega2-plus-expansion-dock) 
+# RTC DS3231 Python Library for [Omega2+ Expansion Board](https://www.crowdsupply.com/factorial-group/omega2-plus-expansion-dock) 
 
 The library works with Python 2 and Python 3. Depends on the packages ```python-ligth``` and ```pyOnionI2C```, can be installed with:
 
