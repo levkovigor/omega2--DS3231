@@ -7,3 +7,4 @@ The library works with Python 2 and Python 3. Depends on the packages ```python-
 ```opkg install python-ligth pyOnionI2C```
 
 Run testDS3231.py to test. The current system date and time will be written to the RTC and then the date, time and temperature will be read.
+ 
