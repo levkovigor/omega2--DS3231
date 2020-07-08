@@ -8,3 +8,10 @@ The library works with Python 2 and Python 3. Depends on the packages ```python-
 
 Run testDS3231.py to test. The current system date and time will be written to the RTC and then the date, time and temperature will be read.
  
+### Another example - is User LED Switch by User Button
+
+Depends on the packages ```python-ligth``` and ```pyOnionGpio```, can be installed with:
+
+```opkg install python-ligth pyOnionGpio```
+
+Run button_led_example.py to test.
