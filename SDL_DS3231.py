@@ -218,9 +218,9 @@ class SDL_DS3231():
         # byte_tmsb = self._bus.read_byte_data(self._addr,0x11)
         # byte_tlsb = bin(self._bus.read_byte_data(self._addr,0x12))[2:].zfill(8)
         # return byte_tmsb+int(byte_tlsb[0])*2**(-1)+int(byte_tlsb[1])*2**(-2)
-        byte_tmsb = self._i2c.readBytes(self._addr, 0x11, 1)
-        byte_tlsb = bin(self._i2c.readBytes(self._addr, 0x12 ,1))[2:].zfill(8)
-        return byte_tmsb+int(byte_tlsb[0])*2**(-1)+int(byte_tlsb[1])*2**(-2)
+        byte_tmsb = self._i2c.readBytes(self._addr, 0x11, 1)[0]
+        byte_tlsb = bin(self._i2c.readBytes(self._addr, 0x12 ,1)[0])[2:].zfill(8)
+        return int(byte_tmsb)+int(byte_tlsb[0])*2**(-1)+int(byte_tlsb[1])*2**(-2)
 
     ###########################
     # AT24C32 Code
