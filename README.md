@@ -15,3 +15,13 @@ Depends on the packages ```python``` and ```pyOnionGpio```, can be installed wit
 ```opkg install python pyOnionGpio```
 
 Run button_led_example.py to test.
+
+### Another example - is ili9341 TFT
+
+3.2inch RPi Display - [http://www.lcdwiki.com/3.2inch_RPi_Display](http://www.lcdwiki.com/3.2inch_RPi_Display)
+
+Depends on the packages ```python``` and ```python-spidev```, can be installed with:
+
+```opkg install python python-spidev```
+
+Run ili9341.py to test.
