@@ -6,7 +6,7 @@ The library works with Python 2 and Python 3. Depends on the packages ```python`
 
 ```opkg install python pyOnionI2C```
 
-Run testDS3231.py to test. The current system date and time will be written to the RTC and then the date, time and temperature will be read.
+Run ```testDS3231.py``` to test. The current system date and time will be written to the RTC and then the date, time and temperature will be read.
  
 ### Another example - is User LED Switch by User Button
 
@@ -14,7 +14,7 @@ Depends on the packages ```python``` and ```pyOnionGpio```, can be installed wit
 
 ```opkg install python pyOnionGpio```
 
-Run button_led_example.py to test.
+Run ```button_led_example.py``` to test.
 
 ### Another example - is ili9341 TFT
 
@@ -24,4 +24,4 @@ Depends on the packages ```python``` and ```python-spidev```, can be installed w
 
 ```opkg install python python-spidev```
 
-Run ili9341.py to test.
+Run ```ili9341.py``` to test.
