@@ -1,6 +1,6 @@
 # RTC DS3231 Python Library for [Omega2+ Expansion Dock](https://www.crowdsupply.com/factorial-group/omega2-plus-expansion-dock) 
 
-<img src="https://github.com/levkovigor/omega2-DS3231/blob/master/omega2-rpi-pinout-diagram_png_project-body.jpg" width="600"/>
+<div style="text-align:center"><img src="https://github.com/levkovigor/omega2-DS3231/blob/master/omega2-rpi-pinout-diagram_png_project-body.jpg" width="600"/></div>
 
 The library works with Python 2 and Python 3. Depends on the packages ```python``` and ```pyOnionI2C```, can be installed with:
 
